@@ -7,12 +7,14 @@ Notes and content as I go through [Terraform Hands-On Labs](https://www.udemy.co
 - Using VSC and WSL for everything
 - Remember to install HashiCorp's Terraform extension on VSC
 
-Set up secrets
+Set up environment
 
 ```bash
-export AWS_ACCESS_KEY_ID="<key>"
-export AWS_SECRET_ACCESS_KEY="<key>"
-alias tf=terraform
+echo 'export AWS_ACCESS_KEY_ID="<key>"' >> ~/.bash_profile
+echo 'export AWS_SECRET_ACCESS_KEY="<key>"' >> ~/.bash_profile
+echo 'alias tf=terraform' >> ~/.bashrc
+. ~/.bash_profile
+. ~/.bashrc
 ```
 
 [Install Terraform (WSL)](https://developer.hashicorp.com/terraform/downloads)
