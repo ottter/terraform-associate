@@ -2,6 +2,8 @@
 
 Notes and content as I go through [Terraform Hands-On Labs](https://www.udemy.com/course/terraform-hands-on-labs/)
 
+Everything in `/labs` is forked from `/terraform` in [THIS repo](https://github.com/btkrausen/hashicorp)
+
 ## Notes
 
 - Using VSC and WSL for everything
