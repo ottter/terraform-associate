@@ -15,7 +15,7 @@
 | `terraform output`   |   |
 | `terraform show`   |   |
 | `terraform state`   |   |
-| `terraform version`   |   |
+| `terraform version`   | Gives TF version along with required plugins/providers|
 
 ## AWS
 
