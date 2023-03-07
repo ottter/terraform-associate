@@ -7,6 +7,9 @@
 
 *.terraform.lock.hcl
 
+# Initialized in labs/Terraform Providers; name used for private key throughout rest of lab
+MyAWSKey.pem
+
 # Crash log files
 crash.log
 

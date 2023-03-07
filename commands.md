@@ -17,6 +17,8 @@
 | `terraform state`   |   |
 | `terraform version`   | Gives TF version along with required plugins/providers|
 
+`tf show aws_instance.ubuntu_server` shows information about the resource 'aws_instance' 'ubuntu_server'
+
 ## AWS
 
 | Command      | Action |
