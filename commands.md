@@ -17,7 +17,9 @@
 | `terraform state`   |   |
 | `terraform version`   | Gives TF version along with required plugins/providers|
 
-`tf show aws_instance.ubuntu_server` shows information about the resource 'aws_instance' 'ubuntu_server'
+`tf show aws_instance.ubuntu_server` shows information about the resource 'aws_instance' 'ubuntu_server'.
+
+`tf apply -replace="aws_instance.web_server"` puts a taint on the web_server to rebuild it in the next apply. Replaced `tf taint`.
 
 ## AWS
 
